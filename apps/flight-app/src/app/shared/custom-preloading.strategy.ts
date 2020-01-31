@@ -11,7 +11,7 @@ export class CustomPreloadingStrategy implements PreloadingStrategy {
     
     preload(route: Route, fn: () => Observable<any>): Observable<any> {
         
-
+        
         return fn();
 
     }
